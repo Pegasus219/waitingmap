@@ -3,7 +3,7 @@
 #### 用法：
     //创建waitingMap
     var wMap = waitingmap.NewMap()
-    //获取值
-    wMap.Wt(key, value)
     //赋值
+    wMap.Wt(key, value)
+    //获取值
     getVal := wMap.Rd(key, timeout)
